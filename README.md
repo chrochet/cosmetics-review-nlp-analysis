@@ -59,46 +59,40 @@
 
 ## 📌 주요 기능
 ### 01 웹페이지 HTML 수집 및 리뷰 추출
-상세보기 · WIKI  
+[상세보기 · WIKI]()  
 - Selenium 기반 페이지 스크롤 처리
 - BeautifulSoup HTML 파싱으로 리뷰 텍스트 수집
 - CSV 저장
 
-👉 WIKI: `./리들샷 300.ipynb`
+: `./리들샷 300.ipynb`
 
 ---
 
 ### 02 데이터 전처리 및 텍스트 정제
-상세보기 · WIKI  
+[상세보기 · WIKI]()   
 - 결측/중복 제거
 - 텍스트 정규화
 - 형태소 분석 기반 토큰화(Okt)
 - 불용어 제거 및 Token 데이터 생성
 
-👉 WIKI: `./전처리 12.21 .ipynb`
+:`./전처리 12.21 .ipynb`
 
 ---
 
 ### 03 TF-IDF 기반 키워드 분석
-상세보기 · WIKI  
+[상세보기 · WIKI]()  
 - 리뷰 텍스트 결측값 제거 및 정리
 - TF-IDF로 핵심 키워드 중요도 산출
 - 상위 키워드 추출
 
-👉 WIKI: `./tf-idf.ipynb`
+: `./tf-idf.ipynb`
 
 ---
 
 ### 04 LDA 기반 토픽 모델링
-상세보기 · WIKI  
+[상세보기 · WIKI]()  
 - 토큰 기반 corpus/dictionary 생성
 - LDA 토픽 모델 학습
 - Coherence Score 평가로 토픽 품질 확인
 
-👉 WIKI: `./LDA .ipynb`
-
-
-from webdriver_manager.chrome import ChromeDriverManager
-import time
-from bs4 import BeautifulSoup
-import pandas as pd
+: `./LDA .ipynb`
