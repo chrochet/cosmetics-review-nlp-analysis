@@ -206,6 +206,7 @@ print("Saved: preprocessed_reviews.csv")
 <div markdown="1">
 <img width="641" height="411" alt="image" src="https://github.com/user-attachments/assets/8a3c5dc5-0c76-4298-a732-4f24d2f79f26" />
 
+&nbsp;
 ```python
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
