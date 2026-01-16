@@ -1,4 +1,4 @@
-# cosmetics-review-text-mining
+# 💄cosmetics-review-text-mining
 웹 리뷰 기반 화장품 만족·불만족 요인 탐색 
 
 ---
