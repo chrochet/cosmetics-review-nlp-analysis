@@ -6,15 +6,12 @@
 ## 🖥️ 프로젝트 소개
 본 프로젝트는 웹 페이지(화장품 리뷰)의 HTML 데이터를 수집한 뒤,  
 텍스트 전처리 과정을 거쳐 키워드 분석(TF-IDF)과 토픽 모델링(LDA)을 수행하여  
-리뷰에서 나타나는 주요 만족/불만족 요인을 탐색하는 텍스트 마이닝 프로젝트입니다.
-
-특히, 실무에서 요구되는 **데이터 정제 및 전처리 역량**을 중심으로  
-웹 데이터 수집 → 정제 → 분석까지 End-to-End 파이프라인 구현에 초점을 두었습니다.
+리뷰에서 나타나는 주요 만족/불만족 요인을 탐색하는 텍스트 마이닝 프로젝트이다.
 
 ---
 
 ## 🕰️ 개발 기간
-- 2025.XX.XX - 2025.XX.XX
+2024. 11. 23.- 2025.02.04
 
 ---
 
@@ -207,6 +204,7 @@ print("Saved: preprocessed_reviews.csv")
 <details>
 <summary>💻 code | TF-IDF 학습 + 상위 키워드 추출</summary>
 <div markdown="1">
+<img width="641" height="411" alt="image" src="https://github.com/user-attachments/assets/8a3c5dc5-0c76-4298-a732-4f24d2f79f26" />
 
 ```python
 import pandas as pd
@@ -255,6 +253,11 @@ for k, s in top_keywords:
 <details>
 <summary>💻 code | Dictionary/Corpus 생성 → LDA 학습 → Coherence Score 평가</summary>
 <div markdown="1">
+
+
+<img width="499" height="162" alt="image" src="https://github.com/user-attachments/assets/54c6b795-e92a-4218-b6d2-db62beeef8b2" />
+
+<img width="1500" height="219" alt="image" src="https://github.com/user-attachments/assets/5df73bd5-ef53-4b13-a7e5-89f3f618d1d5" />
 
 ```python
 import pandas as pd
